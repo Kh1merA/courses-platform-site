@@ -8,6 +8,7 @@ body{
 .container{
     width: 1440px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .header{
@@ -80,6 +81,9 @@ body{
 }
 .footer{
     padding: 59px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 .footer__holder{
     display: flex;
@@ -122,12 +126,37 @@ body{
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
+    margin: 0 0 28px 0;
 }
 .sitemap__list{
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 .sitemap__list a{
     text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #FBFBFC;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #6D6D77;
+    gap: 28px;
+}
+.copyright a{
+    color: #6D6D77;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
 }
