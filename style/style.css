@@ -8,7 +8,6 @@ body{
 .container{
     width: 1440px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .header{
@@ -67,14 +66,108 @@ body{
 .offer{
     display: flex;
     justify-content: space-between;
+    padding-top: 150px;
+    background: url(../img/woman.png) 125% 100% no-repeat;
 }
 .offer__holder{
     width: 648px;
+    background: url(../img/Ellipse2.png) 140% -30% no-repeat;
+    background-size: 700px 700px;
+}
+.offer__during{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #19191C;
+    width: 84px;
+    border-bottom: #504DEE 4px solid;
+    margin-bottom: 32px;
+}
+.offer__upper-title{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #19191C;
+    margin: 0;
 }
 .offer__title{
     font-size: 58px;
     line-height: 70px;
     font-weight: 700;
+    color: #19191C;
+    margin-top: 2px;
+    margin-bottom: 48px;
+}
+.offer__description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #19191C;
+    margin-bottom: 50px;
+}
+.button{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FBFBFC;
+    padding: 16px 37px;
+    border: none;
+    background: #504DEE;
+    margin-bottom: 110px;
+}
+.offer__sale{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 8px;
+}
+.offer__time{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 195px;
+}
+.offer__list{
+    flex-grow: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: url(../img/Rectangle.png) 80% 100% no-repeat;
+    z-index: -1;
+
+}
+.offer__invision{
+    top: 100px;
+    right: 20px;
+}
+.offer__protopie{
+    top: 2px;
+    right: 240px;
+}
+.offer__miro{
+    top: 100px;
+    right: 500px;
+}
+.offer__photoshop{
+    top: 290px;
+    right: 510px;
+}
+.offer__figma{
+    top: 420px;
+    right: 720px;
+}
+.offer__illustrator{
+    top: 610px;
+    right: 660px;
+}
+.offer__item{
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
 }
 .wrapper{
     background: #19191C;
